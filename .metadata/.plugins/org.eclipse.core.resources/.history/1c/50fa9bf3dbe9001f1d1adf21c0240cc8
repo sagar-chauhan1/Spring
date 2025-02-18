@@ -1,0 +1,24 @@
+package in.sp.Main;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.jdbc.core.JdbcTemplate;
+
+import in.sp.resources.SpringConfiguration;
+
+public class App 
+{
+    public static void main( String[] args )
+    {	
+    	int id = 23;
+    	String name = "ashvin";
+    	int salary = 30000;
+       ApplicationContext con = new AnnotationConfigApplicationContext(SpringConfiguration.class);
+       
+       JdbcTemplate template = con.getBean(JdbcTemplate.class);
+       
+       String query = "INSERT INTO sagar VALUES(?,?,?)";
+       
+       template.update(query,id,name,salary);
+    }
+}

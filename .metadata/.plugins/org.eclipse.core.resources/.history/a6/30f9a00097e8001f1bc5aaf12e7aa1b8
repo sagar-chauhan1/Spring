@@ -1,0 +1,14 @@
+package in.sp.dependency;
+
+public class Address {
+	
+	private int house;
+	private String city;
+	private String pincode;
+	
+	public Address(int house, String city, String pincode) {
+		this.house = house;
+		this.city = city;
+		this.pincode = pincode;
+	}
+}

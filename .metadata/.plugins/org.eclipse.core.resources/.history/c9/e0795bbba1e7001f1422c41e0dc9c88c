@@ -1,0 +1,16 @@
+package in.sp.spring;
+
+import org.springframework.context.annotation.Configuration;
+
+public class Main {
+	
+	public static void main(String args[]) {
+		
+		String path = "in.sp.spring.Student";
+		Configuration con = new ;
+		
+		Student st = (Student)con.getClass("StudId");
+		
+		st.show();
+	}
+}

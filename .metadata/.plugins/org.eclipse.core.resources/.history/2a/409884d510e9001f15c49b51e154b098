@@ -1,0 +1,19 @@
+package main;
+
+import java.lang.module.Configuration;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import autoWiring_Anno.Student;
+
+public class Main {
+	
+	public static void main(String args[]) {
+		
+		ApplicationContext con = new AnnotationConfigApplicationContext(Configuration.class);
+		
+		Student stu = con.getBean(Student.class);
+		stu.show();
+	}
+}

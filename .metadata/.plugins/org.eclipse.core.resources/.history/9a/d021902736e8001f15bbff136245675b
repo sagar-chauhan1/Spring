@@ -1,0 +1,15 @@
+package in.sp.employeeMain;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Main {
+	
+	public static void main(String args[]) {
+		
+		String congi = "in.sp.configuration.configurationFile.xml";
+		ApplicationContext con = new ClassPathXmlApplicationContext(congi);
+		
+		Student s1 = (Student) con.getBean();
+	}
+}

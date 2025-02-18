@@ -1,0 +1,19 @@
+package in.sp.resources;
+
+import org.springframework.context.annotation.Configuration;
+import org.springframework.jdbc.datasource.DriverManagerDataSource;
+
+@Configuration
+public class ConfigurationFile {
+	
+	public DriverManagerDataSource dataSource() {
+		
+		DriverManagerDataSource source = new DriverManagerDataSource();
+		source.setDriverClassName(null);
+		source.setUrl(null);
+		source.setUsername(null);
+		source.setPassword(null);
+		
+		return source;
+	}
+}

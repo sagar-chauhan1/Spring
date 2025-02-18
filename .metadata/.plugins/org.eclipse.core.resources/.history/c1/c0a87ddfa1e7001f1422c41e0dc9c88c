@@ -1,0 +1,17 @@
+package in.sp.spring;
+
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Main {
+	
+	public static void main(String args[]) {
+		
+		String config= "configuration.xml";
+		Configuration con = new ClassPathXmlApplicationContext(config);
+		
+		Student st = (Student)con.getBean("StudId");
+		
+		st.show();
+	}
+}

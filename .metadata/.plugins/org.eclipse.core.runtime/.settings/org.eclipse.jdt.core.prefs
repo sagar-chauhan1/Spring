@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+org.eclipse.jdt.core.codeComplete.visibilityCheck=enabled
+org.eclipse.jdt.core.compiler.codegen.targetPlatform=22
+org.eclipse.jdt.core.compiler.compliance=22
+org.eclipse.jdt.core.compiler.release=enabled
+org.eclipse.jdt.core.compiler.source=22
+org.eclipse.jdt.core.userLibrary.Springjar=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<userlibrary systemlibrary\="false" version\="2">\r\n\t<archive path\="C\:/Users/Bharat/Downloads/Spring_JAR_Files/commons-logging-1.1.3.jar"/>\r\n\t<archive path\="C\:/Users/Bharat/Downloads/Spring_JAR_Files/spring-aop-4.0.6.RELEASE.jar"/>\r\n\t<archive path\="C\:/Users/Bharat/Downloads/Spring_JAR_Files/spring-beans-4.0.6.RELEASE.jar"/>\r\n\t<archive path\="C\:/Users/Bharat/Downloads/Spring_JAR_Files/spring-context-4.0.6.RELEASE.jar"/>\r\n\t<archive path\="C\:/Users/Bharat/Downloads/Spring_JAR_Files/spring-context-support-4.0.6.RELEASE.jar"/>\r\n\t<archive path\="C\:/Users/Bharat/Downloads/Spring_JAR_Files/spring-core-4.0.6.RELEASE.jar"/>\r\n\t<archive path\="C\:/Users/Bharat/Downloads/Spring_JAR_Files/spring-expression-4.0.6.RELEASE.jar"/>\r\n</userlibrary>\r\n

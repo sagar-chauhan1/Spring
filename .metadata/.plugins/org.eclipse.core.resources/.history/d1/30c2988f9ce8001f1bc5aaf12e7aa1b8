@@ -1,0 +1,33 @@
+package in.sp.configuration;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import in.sp.dependency.Address;
+import in.sp.dependency.Student;
+
+@Configuration
+public class ConfigurationDemo {
+	
+	@Bean
+	public Address addrId() {
+		
+		int house = 123;
+		String city = "Vanpari";
+		int pincode = 360110;
+		
+		Address addr = new Address(house,city,pincode);
+	
+	}
+	
+	@Bean
+	public Student studId(@Autowired Address address) {
+		
+		int id = 4;
+		String name = "dharmik";
+		
+		Student stu = new Student(id, name, address);
+		
+	}
+}

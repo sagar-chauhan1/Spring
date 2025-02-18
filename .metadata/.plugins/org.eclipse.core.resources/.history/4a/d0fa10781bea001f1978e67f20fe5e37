@@ -1,0 +1,5 @@
+package in.sp.student;
+
+public class StudentRowMapper {
+
+}

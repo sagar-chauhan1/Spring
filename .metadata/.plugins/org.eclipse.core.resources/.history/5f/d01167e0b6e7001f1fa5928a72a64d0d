@@ -1,0 +1,16 @@
+package in.sp.configuration;
+
+import in.sp.beans.Student;
+
+@configuration
+public class Configuration {
+	
+	public Student studId() {
+		
+		Student std = new Student();
+		std.setId(8);
+		std.setName("krupal");
+		
+		return std;
+	}
+}
