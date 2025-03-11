@@ -1,9 +1,0 @@
-package in.sp.configuration;
-
-import org.springframework.context.annotation.Configuration;
-
-@Configuration
-public class ConfigurationFile {
-	
-	
-}

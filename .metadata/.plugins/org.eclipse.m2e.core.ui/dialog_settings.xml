@@ -28,20 +28,15 @@
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
 			<item value="in.sp.Main"/>
-			<item value="in.programming.MavenJdbcCURD_opresan"/>
-			<item value="in.example.spring.SpringBasics1"/>
+			<item value="com.spring.client"/>
 		</list>
 		<list key="groupId">
-			<item value="in.programming"/>
-			<item value="in.example.spring"/>
+			<item value="in.springprogramming"/>
+			<item value="in.springProgramming"/>
 		</list>
 		<list key="artifactId">
-			<item value="MavenJDBC_Select_Opresan"/>
-			<item value="MavenJDBC_CRUD_Opresan"/>
-			<item value="MavenJdbcCURD_opresan"/>
-			<item value="MavenSecondProject"/>
-			<item value="MavenFirstProject"/>
-			<item value="SpringBasics1"/>
+			<item value="SpringMVCWebApp1"/>
+			<item value="spring_hibernate"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -53,6 +48,7 @@
 		</list>
 		<list key="version">
 			<item value="0.0.1-SNAPSHOT"/>
+			<item value="1.1"/>
 		</list>
 	</section>
 	<section name="MavenProjectWizardArtifactPage">

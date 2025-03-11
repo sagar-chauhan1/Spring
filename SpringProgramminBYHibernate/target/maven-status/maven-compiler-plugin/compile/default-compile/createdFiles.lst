@@ -1,0 +1,5 @@
+com\spring\dao\BookDAO.class
+com\spring\dao\BookDAOImpl.class
+com\spring\model\Book.class
+com\spring\config\HibernateConfiguration.class
+com\spring\client\Main.class
